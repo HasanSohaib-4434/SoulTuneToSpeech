@@ -4,10 +4,14 @@ import json
 import numpy as np
 import librosa
 from transformers import pipeline
-import requests
-import zonos
+import torch
+import torchaudio
+from zonos.model import Zonos
+from zonos.conditioning import make_cond_dict
+from zonos.utils import DEFAULT_DEVICE as device
 
 model = whisper.load_model("tiny")
+zonos_model = Zonos.from_pretrained("Zyphra/Zonos-v0.1-transformer", device=device)
 
 with open('dua.json', 'r', encoding='utf-8') as file:
     dua_data = json.load(file)
@@ -17,13 +21,14 @@ with open('verse.json', 'r', encoding='utf-8') as file:
 
 emotion_analyzer = pipeline("text-classification", model="j-hartmann/emotion-english-distilroberta-base", return_all_scores=True)
 
-def zonos_tts(text, language="en"):
-    url = "https://api.zonos.ai/tts"
-    payload = {"text": text, "language": language}
-    response = requests.post(url, json=payload)
-    if response.status_code == 200:
-        return response.json().get("audio_url")
-    return None
+def zonos_tts(text):
+    cond_dict = make_cond_dict(text=text, language="en-us")
+    conditioning = zonos_model.prepare_conditioning(cond_dict)
+    codes = zonos_model.generate(conditioning)
+    wavs = zonos_model.autoencoder.decode(codes).cpu()
+    audio_path = "zonos_output.wav"
+    torchaudio.save(audio_path, wavs[0], zonos_model.autoencoder.sampling_rate)
+    return audio_path
 
 def analyze_emotion(text):
     result = emotion_analyzer(text)
@@ -64,7 +69,7 @@ if uploaded_file:
     if duas:
         st.markdown("<h3 style='color: #FF7043;'>Suggested Duas:</h3>", unsafe_allow_html=True)
         for dua in duas:
-            dua_audio_url = zonos_tts(dua['english'])
+            dua_audio_path = zonos_tts(dua['english'])
             st.markdown(
                 f"""
                 <div style='padding: 15px; border-radius: 8px; background-color: #2E3B4E; color: white; margin-bottom: 10px;'>
@@ -73,8 +78,8 @@ if uploaded_file:
                 <strong>English:</strong> {dua['english']}</div>
                 """, unsafe_allow_html=True
             )
-            if dua_audio_url:
-                st.audio(dua_audio_url, format='audio/mp3')
+            if dua_audio_path:
+                st.audio(dua_audio_path, format='audio/wav')
     else:
         st.write("No duas available for this emotion.")
 
@@ -82,7 +87,7 @@ if uploaded_file:
     if verses:
         st.markdown("<h3 style='color: #FF7043;'>Suggested Quranic Verses:</h3>", unsafe_allow_html=True)
         for verse in verses:
-            verse_audio_url = zonos_tts(verse['english'])
+            verse_audio_path = zonos_tts(verse['english'])
             st.markdown(
                 f"""
                 <div style='padding: 15px; border-radius: 8px; background-color: #2E3B4E; color: white; margin-bottom: 10px;'>
@@ -91,7 +96,7 @@ if uploaded_file:
                 <strong>English:</strong> {verse['english']}</div>
                 """, unsafe_allow_html=True
             )
-            if verse_audio_url:
-                st.audio(verse_audio_url, format='audio/mp3')
+            if verse_audio_path:
+                st.audio(verse_audio_path, format='audio/wav')
     else:
         st.write("No Quranic verses available for this emotion.")
