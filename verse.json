@@ -1,0 +1,99 @@
+{
+  "joy": [
+    {
+      "verse": "لَا يُكَلِّفُ اللَّهُ نَفْسًا إِلَّا وُسْعَهَا",
+      "urdu": "اللہ کسی جان پر اس کی طاقت سے زیادہ بوجھ نہیں ڈالتا",
+      "english": "Allah does not burden a soul beyond that it can bear."
+    },
+    {
+      "verse": "يَا بَنِي آدَمَ خُذُوا زِينَتَكُمْ عِندَ كُلِّ مَسْجِدٍ وَكُلُوا وَاشْرَبُوا وَلَا تُسْرِفُوا إِنَّهُ لَا يُحِبُّ الْمُسْرِفِينَ",
+      "urdu": "اے اولاد آدم! ہر مسجد میں اپنی زینت اختیار کرو، اور کھاؤ پیو، مگر حد سے تجاوز نہ کرو۔ یقیناً وہ اسراف کرنے والوں کو پسند نہیں کرتا",
+      "english": "O children of Adam, take your adornment at every masjid, and eat and drink, but do not be excessive. Indeed, He does not like those who commit excess."
+    }
+  ],
+  "sadness": [
+    {
+      "verse": "قُل لَّن يُصِيبَنَا إِلَّا مَا كَتَبَ اللَّهُ لَنَا هُوَ مَوْلَانَا وَعَلَى اللَّهِ فَلْيَتَوَكَّلِ الْمُؤْمِنُونَ",
+      "urdu": "کہہ دو ہمیں نہیں پہنچے گا مگر وہ جو اللہ نے ہمارے لیے لکھا ہے۔ وہ ہمارا مولا ہے، اور اللہ پر ایمان لانے والوں کو اسی پر توکل کرنا چاہیے",
+      "english": "Say, Never will we be struck except by what Allah has decreed for us; He is our protector. And upon Allah let the believers rely."
+    },
+    {
+      "verse": "فَإِنَّ مَعَ الْعُسْرِ يُسْرًا إِنَّ مَعَ الْعُسْرِ يُسْرًا",
+      "urdu": "یقیناً مشکل کے ساتھ آسانی ہے، یقیناً مشکل کے ساتھ آسانی ہے",
+      "english": "For indeed, with hardship will be ease. Indeed, with hardship will be ease."
+    }
+  ],
+  "angry": [
+    {
+      "verse": "فَإِنَّ مَعَ الْعُسْرِ يُسْرًا إِنَّ مَعَ الْعُسْرِ يُسْرًا",
+      "urdu": "یقیناً مشکل کے ساتھ آسانی ہے، یقیناً مشکل کے ساتھ آسانی ہے",
+      "english": "For indeed, with hardship will be ease. Indeed, with hardship will be ease."
+    },
+    {
+      "verse": "وَعِبَادُ الرَّحْمَٰنِ الَّذِينَ يَمْشُونَ عَلَى الْأَرْضِ هَوْنًا وَإِذَا خَاطَبَهُمُ الْجَاهِلُونَ قَالُوا سَلاَمًا",
+      "urdu": "اور رحمان کے عبادت گزار وہ ہیں جو زمین پر انکساری کے ساتھ چلتے ہیں، اور جب جاہل انہیں مخاطب کرتے ہیں تو وہ کہتے ہیں سلام",
+      "english": "And the servants of the Most Merciful are those who walk upon the earth humbly, and when the ignorant address them, they say peace."
+    }
+  ],
+  "calm": [
+    {
+      "verse": "اللَّهُ نُورُ السَّمَاوَاتِ وَالْأَرْضِ",
+      "urdu": "اللہ آسمانوں اور زمین کا نور ہے",
+      "english": "Allah is the Light of the heavens and the earth."
+    }
+  ],
+  "stressed": [
+    {
+      "verse": "لَا يُكَلِّفُ اللَّهُ نَفْسًا إِلَّا وُسْعَهَا",
+      "urdu": "اللہ کسی جان پر اس کی طاقت سے زیادہ بوجھ نہیں ڈالتا",
+      "english": "Allah does not burden a soul beyond that it can bear."
+    }
+  ],
+  "anxious": [
+    {
+      "verse": "فَإِنَّ مَعَ الْعُسْرِ يُسْرًا إِنَّ مَعَ الْعُسْرِ يُسْرًا",
+      "urdu": "یقیناً مشکل کے ساتھ آسانی ہے، یقیناً مشکل کے ساتھ آسانی ہے",
+      "english": "For indeed, with hardship will be ease. Indeed, with hardship will be ease."
+    }
+  ],
+  "disgust": [
+    {
+      "verse": "إِنَّ اللَّةَ لَا يُحِبُّ كُلَّ مُتَكَبِّرٍ جَحُودٍ",
+      "urdu": "بیشک اللہ ہر متکبر اور ناشکرا کو پسند نہیں کرتا",
+      "english": "Indeed, Allah does not like every arrogant and boastful person."
+    }
+  ],
+  "surprise": [
+    {
+      "verse": "إِنَّ رَبَّكَ لَبِالْمِرْصَادِ",
+      "urdu": "یقیناً آپ کا رب انتظار کر رہا ہے",
+      "english": "Indeed, your Lord is in observation."
+    }
+  ],
+  "fear": [
+    {
+      "verse": "إِنَّ اللَّةَ مَعَ الَّذِينَ اتَّقَوْا وَ الَّذِينَ هُمْ مُحْسِنُونَ",
+      "urdu": "یقیناً اللہ ان لوگوں کے ساتھ ہے جو تقویٰ اختیار کرتے ہیں",
+      "english": "Indeed, Allah is with those who fear Him and those who are good-doers."
+    }
+  ],
+  "love": [
+    {
+      "verse": "إِنَّ اللَّةَ يُحِبُّ الَّذِينَ يُقَاتِلُونَ فِي سَبِيلِهِ",
+      "urdu": "یقیناً اللہ ان لوگوں کو پسند کرتا ہے جو اُس کی راہ میں لڑتے ہیں",
+      "english": "Indeed, Allah loves those who fight in His way."
+    }
+  ],
+  "neutral": [
+    {
+      "verse": "لِكُلِّ أُمَّةٍ أَجَلٌ ۖ فَإِذَا جَاءَ أَجَلُهُمْ لَا يَسْتَأْخِرُونَ سَاعَةً وَلَا يَسْتَقْدِمُونَ",
+      "urdu": "ہر امت کے لیے ایک مقررہ وقت ہوتا ہے، جب ان کا وقت آ جاتا ہے تو وہ نہ ایک گھڑی پیچھے ہوتے ہیں اور نہ آگے بڑھ سکتے ہیں",
+      "english": "For every nation is a specified term. When their time has come, they will not delay it by a single hour, nor will they advance it."
+    },
+    {
+      "verse": "وَتِلْكَ الْأَيَّامُ نُدَاوِلُهَا بَيْنَ النَّاسِ",
+      "urdu": "اور یہ دن ہم لوگوں کے درمیان گردش دیتے رہتے ہیں",
+      "english": "And these days [of varying conditions] We alternate among the people."
+    }
+  ]
+}

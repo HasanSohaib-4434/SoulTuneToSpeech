@@ -1,0 +1,12 @@
+numpy<2
+torch
+transformers
+openai-whisper
+streamlit
+pydub
+soundfile
+sentence-transformers
+plotly
+librosa
+requests
+zonos

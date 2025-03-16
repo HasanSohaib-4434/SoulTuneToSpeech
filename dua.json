@@ -1,0 +1,203 @@
+{
+    "joy": [
+        {
+            "dua": "اللهم اجعلنا من الشاكرين",
+            "urdu": "اللهم ہمیں شکر گزار بنا دے",
+            "english": "O Allah, make us among the grateful ones"
+        },
+        {
+            "dua": "اللهم بارك لنا في حياتنا",
+            "urdu": "اللهم ہماری زندگی میں برکت دے",
+            "english": "O Allah, bless our lives"
+        },
+        {
+            "dua": "اللهم اجعلنا من أهل الجنة",
+            "urdu": "اللهم ہمیں جنت کا اہل بنا دے",
+            "english": "O Allah, make us among the people of Paradise"
+        },
+        {
+            "dua": "اللهم احفظ لنا ما أعطيتنا",
+            "urdu": "اللهم جو ہمیں دیا ہے، اسے محفوظ رکھ",
+            "english": "O Allah, protect what You have given us"
+        },
+        {
+            "dua": "اللهم ارزقنا سعادة لا تنتهي",
+            "urdu": "اللهم ہمیں ختم نہ ہونے والی خوشی دے",
+            "english": "O Allah, grant us never-ending happiness"
+        }
+    ],
+    "sadness": [
+        {
+            "dua": "اللهم إني أعوذ بك من الحزن",
+            "urdu": "اللهم میں غم سے تیری پناہ مانگتا ہوں",
+            "english": "O Allah, I seek refuge with You from sorrow"
+        },
+        {
+            "dua": "اللهم عافني في بدني",
+            "urdu": "اللهم میرے جسم کو عافیت دے",
+            "english": "O Allah, grant me health in my body"
+        },
+        {
+            "dua": "اللهم فرج همي وكربي",
+            "urdu": "اللهم میرے غم اور پریشانی کو دور کر",
+            "english": "O Allah, relieve my anxiety and distress"
+        },
+        {
+            "dua": "اللهم اجعل قلبي راضيًا بقضاءك",
+            "urdu": "اللهم میرا دل تیرے فیصلے پر راضی کر دے",
+            "english": "O Allah, make my heart content with Your decree"
+        },
+        {
+            "dua": "اللهم اجعلني من الصابرين",
+            "urdu": "اللهم مجھے صبر کرنے والوں میں شامل کر",
+            "english": "O Allah, make me among the patient ones"
+        }
+    ],
+    "angry": [
+        {
+            "dua": "اللهم إني أعوذ بك من شر نفسي",
+            "urdu": "اللهم میں اپنے نفس کے شر سے تیری پناہ مانگتا ہوں",
+            "english": "O Allah, I seek refuge with You from the evil of myself"
+        },
+        {
+            "dua": "اللهم اجعل غضبنا في رضاك",
+            "urdu": "اللهم ہمارے غصے کو تیری رضا میں تبدیل کر",
+            "english": "O Allah, turn our anger into Your pleasure"
+        },
+        {
+            "dua": "اللهم اجعلني من أهل الصبر",
+            "urdu": "اللهم مجھے صبر کرنے والوں میں شامل کر",
+            "english": "O Allah, make me among the patient ones"
+        },
+        {
+            "dua": "اللهم اهدني إلى الرضا والسكينة",
+            "urdu": "اللهم مجھے رضا اور سکون کی ہدایت دے",
+            "english": "O Allah, guide me to contentment and tranquility"
+        }
+    ],
+    "calm": [
+        {
+            "dua": "اللهم اهدني فيمن هديت",
+            "urdu": "اللهم مجھے ہدایت دینے والوں میں شامل کر",
+            "english": "O Allah, guide me among those whom You have guided"
+        },
+        {
+            "dua": "اللهم ارزقني السكينة في قلبي",
+            "urdu": "اللهم میرے دل میں سکون عطا فرما",
+            "english": "O Allah, grant me peace in my heart"
+        },
+        {
+            "dua": "اللهم اجعلني من أهل الطمأنينة",
+            "urdu": "اللهم مجھے سکون کی حالت میں رکھ",
+            "english": "O Allah, make me among the people of tranquility"
+        },
+        {
+            "dua": "اللهم اجعلنا من أهل الرضا",
+            "urdu": "اللهم ہمیں رضا کے لوگوں میں شامل کر",
+            "english": "O Allah, make us among the people of contentment"
+        }
+    ],
+    "stressed": [
+        {
+            "dua": "اللهم لا تحملنا ما لا طاقة لنا به",
+            "urdu": "اللهم ہمیں اس بوجھ سے بچا جسے ہم برداشت نہیں کر سکتے",
+            "english": "O Allah, do not burden us with what we cannot bear"
+        },
+        {
+            "dua": "اللهم فرج همنا",
+            "urdu": "اللهم ہمارے غم کو دور کر",
+            "english": "O Allah, relieve our distress"
+        },
+        {
+            "dua": "اللهم اجعلنا من المتوكلين عليك",
+            "urdu": "اللهم ہمیں اپنے اوپر بھروسہ کرنے والوں میں شامل کر",
+            "english": "O Allah, make us among those who place their trust in You"
+        },
+        {
+            "dua": "اللهم ارحمنا بقدرتك وأنت الرحيم",
+            "urdu": "اللهم اپنی قدرت سے ہمیں رحم کر، اور تو ہی رحم کرنے والا ہے",
+            "english": "O Allah, have mercy on us with Your power, and You are the Most Merciful"
+        },
+        {
+            "dua": "اللهم اجعل السكينة في قلبنا",
+            "urdu": "اللهم ہمارے دلوں میں سکون پیدا کر",
+            "english": "O Allah, bring peace into our hearts"
+        }
+    ],
+    "anxious": [
+        {
+            "dua": "اللهم اجعلني من المتوكلين عليك",
+            "urdu": "اللهم مجھے اپنے اوپر بھروسہ کرنے والوں میں شامل کر",
+            "english": "O Allah, make me among those who place their trust in You"
+        },
+        {
+            "dua": "اللهم احفظني من القلق والتوتر",
+            "urdu": "اللهم مجھے پریشانی اور تناؤ سے بچا",
+            "english": "O Allah, protect me from anxiety and stress"
+        },
+        {
+            "dua": "اللهم اشرح لي صدري ويسر لي أمري",
+            "urdu": "اللهم میرے سینے کو کشادہ کر اور میرا کام آسان کر",
+            "english": "O Allah, open my chest and make my affairs easy"
+        },
+        {
+            "dua": "اللهم اجعلني من الصابرين في وجه الابتلاء",
+            "urdu": "اللهم مجھے امتحانات کے سامنے صبر کرنے والوں میں شامل کر",
+            "english": "O Allah, make me among those who are patient in the face of trials"
+        }
+    ],
+    "disgust": [
+    {
+      "dua": "اللهم طهر قلبي",
+      "urdu": "اللہ میرے دل کو صاف کر دے",
+      "english": "O Allah, purify my heart."
+    },
+    {
+      "dua": "اللهم اجعلني من الصابرين",
+      "urdu": "اللہ مجھے صابرین میں شامل کر",
+      "english": "O Allah, make me among the patient ones."
+    }
+  ],"surprise": [
+    {
+      "dua": "اللهم لا تجعلنا من المدهوشين",
+      "urdu": "اللہ ہمیں حیران و پریشان نہ کر",
+      "english": "O Allah, do not make us among those who are bewildered."
+    },
+    {
+      "dua": "اللهم اهدني",
+      "urdu": "اللہ مجھے ہدایت دے",
+      "english": "O Allah, guide me."
+    }
+  ],
+  "fear": [
+    {
+      "dua": "اللهم اجعلني من الآمنين",
+      "urdu": "اللہ مجھے امن دینے والوں میں شامل کر",
+      "english": "O Allah, make me among the safe ones."
+    }
+  ],
+  "love": [
+    {
+      "dua": "اللهم ارزقني حبك",
+      "urdu": "اللہ مجھے اپنی محبت دے",
+      "english": "O Allah, grant me Your love."
+    },
+    {
+      "dua": "اللهم اجعلنا من المتحابين فيك",
+      "urdu": "اللہ ہمیں آپ کی محبت میں ایک دوسرے سے محبت کرنے والا بنائے",
+      "english": "O Allah, make us among those who love each other for Your sake."
+    }
+  ],
+  "neutral": [
+    {
+      "dua": "اللهم اهدني وسددني",
+      "urdu": "اے اللہ! مجھے ہدایت دے اور مجھے درست کر",
+      "english": "O Allah, guide me and keep me steadfast."
+    },
+    {
+      "dua": "اللهم اجعلني من الصابرين",
+      "urdu": "اے اللہ! مجھے صبر کرنے والوں میں شامل فرما",
+      "english": "O Allah, make me among the patient ones."
+    }
+  ]
+}
